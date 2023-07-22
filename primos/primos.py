@@ -16,6 +16,10 @@ while invalido:
     except:
         print('Algun dato no es valido. Intente nuevamente')
 
+
+# Si n es primo, es suficiente demostrar que no es divisible por los
+# números primos menores a su raíz cuadrada. Ya que no se tienen,
+# se divide por todos los números menores a dicha raíz + 1 (por las dudas)
 n_sqrt = trunc(abs(sqrt(n))) + 1
 print("sqrt ", n_sqrt) 
 

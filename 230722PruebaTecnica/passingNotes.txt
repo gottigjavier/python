@@ -1,0 +1,2 @@
+txt = input("Enter unscrambled text: ")[::-1]
+print("Scrambled version", txt)
